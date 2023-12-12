@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VuW/5o2hFe2uogU1rpwtgWepCnJ2cjwnfRROFnXQ6PA=",
+  "Source": "StoreFilter.Api",
+  "BasePath": "_content/StoreFilter.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

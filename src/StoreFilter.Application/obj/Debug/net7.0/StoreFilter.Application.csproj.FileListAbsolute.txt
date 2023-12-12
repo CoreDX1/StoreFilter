@@ -1,0 +1,12 @@
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/bin/Debug/net7.0/StoreFilter.Application.deps.json
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/bin/Debug/net7.0/StoreFilter.Application.dll
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/bin/Debug/net7.0/StoreFilter.Application.pdb
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/obj/Debug/net7.0/StoreFilter.Application.csproj.AssemblyReference.cache
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/obj/Debug/net7.0/StoreFilter.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/obj/Debug/net7.0/StoreFilter.Application.AssemblyInfoInputs.cache
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/obj/Debug/net7.0/StoreFilter.Application.AssemblyInfo.cs
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/obj/Debug/net7.0/StoreFilter.Application.csproj.CoreCompileInputs.cache
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/obj/Debug/net7.0/StoreFilter.Application.dll
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/obj/Debug/net7.0/refint/StoreFilter.Application.dll
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/obj/Debug/net7.0/StoreFilter.Application.pdb
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/obj/Debug/net7.0/ref/StoreFilter.Application.dll
