@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "jWjbe5NzyMQFM4ml3EQm6jF9D9SENGsX1HkH1ukAg0Lc3+9iSU0NNo9rlqVcjIRFf02v7fTvbS9Y5Igdf+SXgQ==",
+  "success": true,
+  "projectFilePath": "/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Api/StoreFilter.Api.csproj",
+  "expectedPackageFiles": [
+    "/home/core/.nuget/packages/microsoft.aspnetcore.openapi/7.0.13/microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
+    "/home/core/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/home/core/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/home/core/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/home/core/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/home/core/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/home/core/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
