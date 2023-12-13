@@ -1,0 +1,2 @@
+DROP DATABASE StoreGames;
+CREATE DATABASE StoreGames;
