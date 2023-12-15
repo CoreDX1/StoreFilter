@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "X796wxMAoAqdbKOvCQoqXNRtqqkUFwk1RNbbfJJ8ZVQ=",
+  "Source": "StoreFilter.Web",
+  "BasePath": "_content/StoreFilter.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

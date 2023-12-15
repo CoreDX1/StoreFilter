@@ -1,0 +1,12 @@
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Infrastructure/bin/Debug/net8.0/StoreFilter.Infrastructure.deps.json
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Infrastructure/bin/Debug/net8.0/StoreFilter.Infrastructure.dll
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Infrastructure/bin/Debug/net8.0/StoreFilter.Infrastructure.pdb
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Infrastructure/obj/Debug/net8.0/StoreFilter.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Infrastructure/obj/Debug/net8.0/StoreFilter.Infrastructure.AssemblyInfoInputs.cache
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Infrastructure/obj/Debug/net8.0/StoreFilter.Infrastructure.AssemblyInfo.cs
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Infrastructure/obj/Debug/net8.0/StoreFilter.Infrastructure.csproj.CoreCompileInputs.cache
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Infrastructure/obj/Debug/net8.0/StoreFilter.Infrastructure.sourcelink.json
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Infrastructure/obj/Debug/net8.0/StoreFilter.Infrastructure.dll
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Infrastructure/obj/Debug/net8.0/refint/StoreFilter.Infrastructure.dll
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Infrastructure/obj/Debug/net8.0/StoreFilter.Infrastructure.pdb
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Infrastructure/obj/Debug/net8.0/ref/StoreFilter.Infrastructure.dll

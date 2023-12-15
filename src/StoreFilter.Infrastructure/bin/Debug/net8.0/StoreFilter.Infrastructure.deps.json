@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "StoreFilter.Infrastructure/1.0.0": {
+        "runtime": {
+          "StoreFilter.Infrastructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "StoreFilter.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
