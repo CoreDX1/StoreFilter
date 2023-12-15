@@ -1,5 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\StoreFilter.Domain\StoreFilter.Domain.csproj" />
+    <ProjectReference Include="..\StoreFilter.Infrastructure\StoreFilter.Infrastructure.csproj" />
+    <ProjectReference Include="..\StoreFilter.Utilities\StoreFilter.Utilities.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>

@@ -10,3 +10,11 @@
 /home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/obj/Debug/net8.0/refint/StoreFilter.Application.dll
 /home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/obj/Debug/net8.0/StoreFilter.Application.pdb
 /home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/obj/Debug/net8.0/ref/StoreFilter.Application.dll
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/bin/Debug/net8.0/StoreFilter.Domain.dll
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/bin/Debug/net8.0/StoreFilter.Infrastructure.dll
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/bin/Debug/net8.0/StoreFilter.Utilities.dll
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/bin/Debug/net8.0/StoreFilter.Domain.pdb
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/bin/Debug/net8.0/StoreFilter.Infrastructure.pdb
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/bin/Debug/net8.0/StoreFilter.Utilities.pdb
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/obj/Debug/net8.0/StoreFilter.Application.csproj.AssemblyReference.cache
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/obj/Debug/net8.0/StoreFilter.Application.csproj.CopyComplete
