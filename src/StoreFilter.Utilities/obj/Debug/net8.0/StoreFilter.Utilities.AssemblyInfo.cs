@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoreFilter.Utilities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c87318167d2ab4a6927096a5dfbed64303e4fc1d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoreFilter.Utilities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoreFilter.Utilities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
