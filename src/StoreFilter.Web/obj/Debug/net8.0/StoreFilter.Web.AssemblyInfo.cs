@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StoreFilter.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+617a9b28be0435a4167f5176b834985eb9a55e1e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d24d19602034fac1ca0c56c302121560573e08a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("StoreFilter.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StoreFilter.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

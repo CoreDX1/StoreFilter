@@ -11,7 +11,7 @@ public static class InjectionExtensions
         IConfiguration configuration
     )
     {
-        var assembly = typeof(InjectionExtensions).FullName;
+        var assembly = typeof(InjectionExtensions).Assembly.FullName;
         //Initialising my DbContext
 
         services.AddDbContext<StoreGamesContext>(options =>
