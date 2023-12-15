@@ -16,10 +16,10 @@ public partial class StoreGamesContext : DbContext
     public virtual DbSet<Genre> Genres { get; set; }
     public virtual DbSet<Platform> Platforms { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
-        optionsBuilder.UseSqlServer(
-            "Server=localhost;Database=StoreGames;TrustServerCertificate=True;User id=sa;Password=index#12345"
-        );
+    // protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
+    //     optionsBuilder.UseSqlServer(
+    //         "Server=localhost;Database=StoreGames;TrustServerCertificate=True;User id=sa;Password=index#12345"
+    //     );
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
