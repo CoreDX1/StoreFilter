@@ -6,4 +6,6 @@ namespace StoreFilter.Application.Interfaces;
 public interface IGameApplication
 {
     public Task<BaseResponse<IEnumerable<GameTypeResponse>>> GameListAsync();
+
+    public Task<BaseResponse<GameTypeResponse>> GameDetailAsync(Guid id);
 }

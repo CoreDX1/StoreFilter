@@ -15,17 +15,18 @@ public class GameController : ControllerBase
     }
 
     [HttpGet]
-    [Route("message")]
-    public string Message()
-    {
-        return "Hello World";
-    }
-
-    [HttpGet]
-    [Route("games")]
+    [Route("list")]
     public async Task<IActionResult> GetGames()
     {
         var response = await _app.GameListAsync();
+        return Ok(response);
+    }
+
+    [HttpGet]
+    [Route("{id:Guid}")]
+    public async Task<IActionResult> GetGameById(Guid id)
+    {
+        var response = await _app.GameDetailAsync(id);
         return Ok(response);
     }
 }

@@ -36,4 +36,22 @@ public class GameApplication : IGameApplication
         }
         return response;
     }
+
+    public async Task<BaseResponse<GameTypeResponse>> GameDetailAsync(Guid id)
+    {
+        var response = new BaseResponse<GameTypeResponse>();
+        var game = await _unitOfWork.Game.GetGame(id);
+        if (game == null)
+        {
+            response.IsSuccess = false;
+            response.Message = "Game not found";
+        }
+        else
+        {
+            response.IsSuccess = true;
+            response.Message = "Game found";
+            response.Data = _mapper.Map<GameTypeResponse>(game);
+        }
+        return response;
+    }
 }

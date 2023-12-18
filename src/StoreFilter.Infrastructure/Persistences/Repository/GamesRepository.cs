@@ -13,7 +13,13 @@ public class GamesRepository : IGamesRepository
 
     public async Task<IEnumerable<Game>> GetGames()
     {
-        IEnumerable<Game> games = await _context.Games.ToListAsync();
+        IEnumerable<Game> games = await _context.Games.AsNoTracking().ToListAsync();
         return games;
+    }
+
+    public async Task<Game?> GetGame(Guid id)
+    {
+        var game = await _context.FindAsync<Game>(id);
+        return game;
     }
 }
