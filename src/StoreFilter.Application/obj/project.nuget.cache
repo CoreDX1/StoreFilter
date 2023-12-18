@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Q2etUwX8KLYCpcc9XwBp4EY8+JIwx1w5WrbcIhz6izNCUYc5rWHeVTBzfW1jfBtxxgyNZRAvbRR39S0cUjEKGw==",
+  "dgSpecHash": "bUn/vW2puSHH7cGm2N9WPZ4n6MA+gpxYG39NA1IuElESDrltt7EYoc3qOs9jEorszAx8WAc8JmuQ+4fnDg6nDA==",
   "success": true,
   "projectFilePath": "/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Application/StoreFilter.Application.csproj",
   "expectedPackageFiles": [
+    "/home/core/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/core/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/home/core/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/home/core/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/home/core/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "/home/core/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/home/core/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/core/.nuget/packages/microsoft.data.sqlclient/5.1.1/microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "/home/core/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.1.0/microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
     "/home/core/.nuget/packages/microsoft.entityframeworkcore/8.0.0/microsoft.entityframeworkcore.8.0.0.nupkg.sha512",

@@ -1,3 +1,5 @@
+namespace StoreFilter.Infrastructure.Extension;
+
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,8 +14,8 @@ public static class InjectionExtensions
     )
     {
         var assembly = typeof(InjectionExtensions).Assembly.FullName;
-        //Initialising my DbContext
 
+        //Initialising my DbContext
         services.AddDbContext<StoreGamesContext>(options =>
         {
             options.UseSqlServer(
@@ -23,7 +25,7 @@ public static class InjectionExtensions
         });
 
         services.AddTransient<IUnitOfWork, UnitOfWork>();
-        services.AddScoped<IGamesRepository, GamesRepository>();
+        services.AddTransient<IGamesRepository, GamesRepository>();
         return services;
     }
 }

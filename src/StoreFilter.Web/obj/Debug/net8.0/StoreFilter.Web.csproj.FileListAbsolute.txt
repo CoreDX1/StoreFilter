@@ -78,3 +78,5 @@
 /home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Web/bin/Debug/net8.0/StoreFilter.Infrastructure.pdb
 /home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Web/bin/Debug/net8.0/StoreFilter.Utilities.pdb
 /home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Web/bin/Debug/net8.0/StoreFilter.Domain.pdb
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Web/bin/Debug/net8.0/AutoMapper.dll
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Web/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

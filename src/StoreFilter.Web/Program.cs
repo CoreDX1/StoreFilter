@@ -1,11 +1,16 @@
+using StoreFilter.Application.Extensions;
+using StoreFilter.Infrastructure.Extension;
+
 var builder = WebApplication.CreateBuilder(args);
 
 var Configure = builder.Configuration;
 builder.Services.AddInjectionInfrastructure(Configure);
+builder.Services.AddInjectionApplication(Configure);
+
+builder.Services.AddRouting(options => options.LowercaseUrls = true);
 
 builder.Services.AddControllers();
 
-// Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
