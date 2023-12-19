@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using StoreFilter.Application.Interfaces;
+using StoreFilter.Domain.Entities;
 
 namespace StoreFilter.Web.Controllers;
 
@@ -15,18 +16,20 @@ public class GameController : ControllerBase
     }
 
     [HttpGet]
-    [Route("list")]
-    public async Task<IActionResult> GetGames()
+    [ProducesResponseType(statusCode: 200, Type = typeof(IEnumerable<Game>))]
+    [Consumes("application/json")]
+    public async Task<ActionResult<IEnumerable<Game>>> ListAllGameAsync()
     {
-        var response = await _app.GameListAsync();
-        return Ok(response);
+        var game = await _app.GameListAsync();
+        return StatusCode(200, game);
     }
 
     [HttpGet]
     [Route("{id:Guid}")]
-    public async Task<IActionResult> GetGameById(Guid id)
+    [ProducesResponseType(statusCode: 200, Type = typeof(Game))]
+    public async Task<ActionResult<Game>> GetGameDetailByIdAsync(Guid id)
     {
-        var response = await _app.GameDetailAsync(id);
-        return Ok(response);
+        var game = await _app.GameDetailAsync(id);
+        return StatusCode(statusCode: 200, value: game);
     }
 }
