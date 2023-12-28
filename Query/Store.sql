@@ -206,8 +206,9 @@ select * from Games;
 select * from GamePlatforms;
 
 SELECT 
-* 
+G.Name, G.[Description], G.ImageURL, G.DeveloperID, G.ReleaseDate, P.PlatformName
 FROM 
     GamePlatforms AS GP
     JOIN Games AS G ON GP.GameID = G.GameID
     JOIN Platforms AS P ON GP.PlatformID = P.PlatformID;
+
