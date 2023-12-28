@@ -15,7 +15,6 @@ public partial class StoreGamesContext : DbContext
     public virtual DbSet<GameGenre> GameGenres { get; set; }
     public virtual DbSet<Genre> Genres { get; set; }
     public virtual DbSet<Platform> Platforms { get; set; }
-    public virtual DbSet<GamePlatform> GamePlatforms { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

@@ -1,6 +1,6 @@
 namespace StoreFilter.Infrastructure.Commons.Game.Request;
 
-public class GameFilterProductsDto
+public class GameFilterProductsDto()
 {
     public string? OrderBy { get; set; }
     public string? Name { get; set; }
