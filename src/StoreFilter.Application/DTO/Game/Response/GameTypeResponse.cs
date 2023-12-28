@@ -13,7 +13,8 @@ public class GameTypeResponse
     public DateOnly? ReleaseDate { get; set; }
     public int? DeveloperId { get; set; }
     public double Rating { get; set; }
+
     // public virtual Developer? Developer { get; set; }
     // public virtual ICollection<GameGenre> GameGenres { get; set; } = new List<GameGenre>();
-    // public virtual ICollection<Platform> Platforms { get; set; } = new List<Platform>();
+    public int? Platforms { get; set; }
 }

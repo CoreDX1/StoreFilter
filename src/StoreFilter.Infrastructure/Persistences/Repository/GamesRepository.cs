@@ -26,13 +26,17 @@ public class GamesRepository : IGamesRepository
 
     public async Task<IEnumerable<Game>> PostFilterGames(GameFilterProductsDto gameFilter)
     {
-        var gameQuery = _context.Games.AsQueryable();
+        IQueryable<Game> gameQuery = _context.Games.Include(x => x.Platforms).AsQueryable();
 
         if (!string.IsNullOrWhiteSpace(gameFilter.Name))
             gameQuery = gameQuery.Where(n => n.Name.ToLower().Contains(gameFilter.Name.ToLower()));
 
-        if (gameFilter.Records)
-            gameQuery = gameQuery.OrderBy(x => x.Name);
+        gameQuery = gameFilter.OrderBy switch
+        {
+            "asc" => gameQuery.OrderBy(x => x.Name),
+            "desc" => gameQuery.OrderByDescending(b => b.Name),
+            _ => gameQuery
+        };
 
         if (gameFilter.ReleaseDateBefore != null && gameFilter.ReleaseDateAfter != null)
         {
@@ -43,6 +47,12 @@ public class GamesRepository : IGamesRepository
                 x => x.ReleaseDate >= releaseBefore && x.ReleaseDate <= releaseAfter
             );
         }
+
+        // gameQuery = gameFilter.Platform switch
+        // {
+        //     "pc" => gameQuery.FirstOrDefault(x => x.Platforms.Count == 1),
+        //     _ => gameQuery
+        // };
 
         if (gameFilter.PriceMax != null)
         {

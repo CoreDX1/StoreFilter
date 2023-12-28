@@ -190,7 +190,7 @@ VALUES
 
 
 insert into GamePlatforms(GameID, PlatformID)
-VALUES((select GameID from Games where Name = 'DARK SOULS: REMASTERED'), (select PlatformID from Platforms where PlatformName = 'playstation 5'));
+VALUES((select GameID from Games where Name = ''), (select PlatformID from Platforms where PlatformName = 'pc'));
 
 -- Drop table
 -- drop table Developers;
@@ -206,10 +206,7 @@ select * from Games;
 select * from GamePlatforms;
 
 SELECT 
-    G.Name AS GameName,
-    G.Price, 
-    G.Rating,
-    P.PlatformName
+* 
 FROM 
     GamePlatforms AS GP
     JOIN Games AS G ON GP.GameID = G.GameID
