@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace StoreFilter.Domain.Entities;
+﻿namespace StoreFilter.Domain.Entities;
 
 public partial class Platform
 {

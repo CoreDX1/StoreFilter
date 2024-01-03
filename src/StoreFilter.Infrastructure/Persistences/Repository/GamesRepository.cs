@@ -48,12 +48,6 @@ public class GamesRepository : IGamesRepository
             );
         }
 
-        // gameQuery = gameFilter.Platform switch
-        // {
-        //     "pc" => gameQuery.FirstOrDefault(x => x.Platforms.Count == 1),
-        //     _ => gameQuery
-        // };
-
         if (gameFilter.PriceMax != null)
         {
             gameQuery = gameQuery.Where(

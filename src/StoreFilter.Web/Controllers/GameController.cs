@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using StoreFilter.Application.DTO.Game.Request;
 using StoreFilter.Application.Interfaces;
 using StoreFilter.Domain.Entities;
-using StoreFilter.Application.DTO.Game.Request;
 
 namespace StoreFilter.Web.Controllers;
 
@@ -37,9 +37,12 @@ public class GameController : ControllerBase
     [HttpPost]
     [Route("filter")]
     [ProducesResponseType(statusCode: StatusCodes.Status200OK, Type = typeof(Game))]
-    public async Task<ActionResult<Game>> PostGameFilterAsync([FromBody] GameTypeFilterRequestDto filter)
+    public async Task<ActionResult<Game>> PostGameFilterAsync(
+        [FromBody] GameTypeFilterRequestDto filter
+    )
     {
         var game = await _app.GameFilterAsync(filter);
         return StatusCode(200, game);
     }
+
 }

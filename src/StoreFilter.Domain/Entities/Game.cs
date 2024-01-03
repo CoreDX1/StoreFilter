@@ -1,4 +1,5 @@
 ﻿namespace StoreFilter.Domain.Entities;
+
 public partial class Game
 {
     public Guid GameId { get; set; }

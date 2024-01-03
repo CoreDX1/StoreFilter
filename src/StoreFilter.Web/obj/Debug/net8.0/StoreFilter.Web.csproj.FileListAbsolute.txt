@@ -80,3 +80,9 @@
 /home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Web/bin/Debug/net8.0/StoreFilter.Domain.pdb
 /home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Web/bin/Debug/net8.0/AutoMapper.dll
 /home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Web/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Web/bin/Debug/net8.0/AppClient/angular.json
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Web/bin/Debug/net8.0/AppClient/package-lock.json
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Web/bin/Debug/net8.0/AppClient/package.json
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Web/bin/Debug/net8.0/AppClient/tsconfig.app.json
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Web/bin/Debug/net8.0/AppClient/tsconfig.json
+/home/core/Desktop/Projects/Asp.Net/StoreFilter/src/StoreFilter.Web/bin/Debug/net8.0/AppClient/tsconfig.spec.json
