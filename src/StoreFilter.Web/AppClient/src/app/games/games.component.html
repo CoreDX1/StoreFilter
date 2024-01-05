@@ -1,0 +1,11 @@
+@for (user of AllUser; track user.id) {
+<li>
+  <a href="#" class="font-medium">{{ user.name }}</a>
+  <img
+    (click)="greet()"
+    alt="phone"
+    class="w[500px]"
+    src="https://github.com/CoreDX1.png"
+  />
+</li>
+}

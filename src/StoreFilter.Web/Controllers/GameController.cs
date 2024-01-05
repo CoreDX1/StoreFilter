@@ -44,5 +44,4 @@ public class GameController : ControllerBase
         var game = await _app.GameFilterAsync(filter);
         return StatusCode(200, game);
     }
-
 }
