@@ -2,6 +2,7 @@ using StoreFilter.Application.Extensions;
 using StoreFilter.Infrastructure.Extension;
 
 var builder = WebApplication.CreateBuilder(args);
+var Cors = "Cors";
 
 var Configure = builder.Configuration;
 builder.Services.AddInjectionInfrastructure(Configure);
@@ -15,7 +16,24 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder
+    .Services
+    .AddCors(option =>
+    {
+        option.AddPolicy(
+            name: Cors,
+            builder =>
+            {
+                builder.WithOrigins("*");
+                builder.AllowAnyHeader();
+                builder.WithMethods();
+            }
+        );
+    });
+
 var app = builder.Build();
+
+app.UseCors(Cors);
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -25,6 +43,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseAuthorization();
 
 app.MapControllers();
 
