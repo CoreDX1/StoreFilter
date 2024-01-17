@@ -9,7 +9,7 @@ import { GameService } from '../../service/game.service';
   templateUrl: './home.component.html',
 })
 export class HomeComponent implements OnInit {
-  public data: ResponseDto = {
+  public gameResponse: ResponseDto = {
     isSuccess: false,
     message: '',
     data: [],
@@ -18,13 +18,13 @@ export class HomeComponent implements OnInit {
   constructor(private service: GameService) {}
 
   ngOnInit(): void {
-    this.getGames();
+    this.FethGames();
   }
 
-  public getGames(): void {
+  public FethGames(): void {
     this.service.getList().subscribe((data) => {
-      this.data = data;
-      console.log(this.data);
+      this.gameResponse = data;
+      console.log(this.gameResponse);
     });
   }
 }
